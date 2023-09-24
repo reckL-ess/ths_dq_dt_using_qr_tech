@@ -1,0 +1,49 @@
+/* Apply styles to the entire section */
+#reports {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+/* Style headings */
+h2, h3 {
+    color: #333;
+}
+
+/* Style paragraphs */
+p {
+    color: #666;
+}
+
+/* Style form elements */
+label {
+    font-weight: bold;
+}
+
+select, button {
+    padding: 5px;
+    margin: 5px 0;
+}
+
+/* Style buttons */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style report content */
+#reportContent {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}

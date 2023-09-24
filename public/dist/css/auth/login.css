@@ -1,0 +1,41 @@
+/* styles.css */
+
+/* Center-align the container */
+.container {
+    margin-top: 50px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+/* Center-align the heading */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style form inputs and buttons */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style error messages */
+span.error-message {
+    color: red;
+}
+
+/* Style the Remember Me checkbox */
+label[for="remember"] {
+    display: inline;
+}

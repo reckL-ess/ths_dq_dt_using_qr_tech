@@ -1,0 +1,178 @@
+    /* Style the entire "My Account" section */
+
+    h2 {
+        color: #1385fe;
+    }
+
+    .my-account-section {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        max-width: 600px; /* Limit the width to prevent it from becoming too wide */
+        margin: 0 auto; /* Center the section horizontally */
+    }
+
+    /* Style User Profile section */
+    .user-profile {
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .user-profile h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .user-profile label {
+        display: block;
+        font-weight: bold;
+        margin-top: 10px;
+        color: #555;
+    }
+
+    .user-profile input[type="text"],
+    .user-profile input[type="email"],
+    .user-profile input[type="password"],
+    .user-profile .notification-preferences-select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-top: 5px;
+        font-size: 16px;
+    }
+
+    .user-profile .edit-button {
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+        font-size: 16px;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .user-profile .edit-button:hover {
+        background-color: #0056b3;
+    }
+
+    /* Style Account Settings section */
+    .account-settings {
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .account-settings h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .account-settings label {
+        display: block;
+        font-weight: bold;
+        margin-top: 10px;
+        color: #555;
+    }
+
+    .account-settings .notification-preferences-select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .account-settings .save-settings-button {
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+        font-size: 16px;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .account-settings .save-settings-button:hover {
+        background-color: #0056b3;
+    }
+
+    /* Style Change Password section */
+    .change-password {
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .change-password h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .change-password label {
+        display: block;
+        font-weight: bold;
+        margin-top: 10px;
+        color: #555;
+    }
+
+    .change-password input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-top: 5px;
+        font-size: 16px;
+    }
+
+    .change-password .change-password-button {
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+        font-size: 16px;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .change-password .change-password-button:hover {
+        background-color: #0056b3;
+    }
+
+    /* Style Logout Button */
+#logout-button {
+    background-color: #dc3545; /* Red color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px; /* Add some margin to separate it from other elements */
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#logout-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
